@@ -1,13 +1,14 @@
 /*
  * common_macros.h
 
+
  *
- *  Created on: ???/???/????
- *      Author: Bahgt Mahmoud
+ *  Created on: Jul 20, 2022
+ *      Author: Bahgat Mahmoud
  */
 
-#ifndef UTILS_COMMON_MACROS_H_
-#define UTILS_COMMON_MACROS_H_
+#ifndef UTILS_BIT_MATH_H_
+#define UTILS_BIT_MATH_H_
 
 #define   SET_BIT(VAR,BIT)  (VAR)|= ( 1<<(BIT))  // DDRA |=(1<<pin)
 #define   TOG_BIT(VAR,BIT)  (VAR)^= ( 1<<(BIT))
